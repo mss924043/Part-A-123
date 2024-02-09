@@ -3,10 +3,10 @@
 CC = g++
 CFLAGS = -Wall -Wextra -std=c++17
 
-SRC = PartC.cpp
+SRC = PartA.cpp
 OBJ = $(SRC:.cpp=.o)
-TARGET = Part-B.exe
-HEX_TARGET = Part-B.hex
+TARGET = Part-A.exe
+HEX_TARGET = Part-A.hex
 
 .PHONY: all clean
 
